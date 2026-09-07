@@ -10,10 +10,19 @@ Install once, call `success` / `fail` with a code — HTTP status and message co
 npm install api-response-standard
 ```
 
+```bash
+pnpm add api-response-standard
+```
+
+```bash
+yarn add api-response-standard
+```
+
 Optional (for Express helpers):
 
 ```bash
 npm install express
+# or: pnpm add express / yarn add express
 ```
 
 ## Response shape
@@ -123,19 +132,6 @@ ERROR_MAP.USER_NOT_FOUND;
 ```
 
 Full catalog: [docs/error-codes.md](./docs/error-codes.md)
-
-## Publish (maintainers)
-
-1. Update `repository` / `homepage` in `package.json`
-2. `npm login`
-3. `npm publish --access public`
-
-Scoped publish example:
-
-```bash
-# package.json name: "@your-org/api-response-standard"
-npm publish --access public
-```
 
 ## License
 

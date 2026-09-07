@@ -18,6 +18,7 @@ export const ERROR_MAP = {
   INSUFFICIENT_PERMISSIONS: { status: 403, message: 'You lack the required permission' },
   ACCOUNT_DISABLED: { status: 403, message: 'Account has been disabled' },
   ACCOUNT_LOCKED: { status: 403, message: 'Account has been locked' },
+  INELIGIBLE_ACCOUNT_TYPE: { status: 422, message: 'This account type is not eligible for this action' },
 
   // Users
   USER_NOT_FOUND: { status: 404, message: 'User not found' },

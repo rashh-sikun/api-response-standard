@@ -1,6 +1,6 @@
 {
   "name": "api-response-standard",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Consistent REST API success/error envelopes with stable error codes and default messages",
   "license": "MIT",
   "type": "module",
